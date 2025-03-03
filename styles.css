@@ -7,6 +7,27 @@
   background-color: #f8f9fa; /* Light gray background */
 }
 
+.section_pic_container {
+  display: flex;
+  height: 475px;
+  width: 475px;
+  margin: auto 0;
+}
+
+.section_text {
+  align-self: center;
+  text-align: center;
+}
+
+.section_text_p1 {
+  text-align: center;
+}
+
+.title_1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 /* Profile Image Styling */
 .profile-img {
   width: 350px; 
