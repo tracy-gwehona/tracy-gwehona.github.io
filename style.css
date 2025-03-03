@@ -88,19 +88,35 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
-  background-color: white;
-  padding: 50px 0;
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#about .container {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
+  padding: 20px;
 }
 
 #about h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: #2c3e50;
 }
 
 #about p {
   font-size: 1.2rem;
-  color: #555;
+  color: #34495e;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
 }
 
 /* Portfolio Section */
