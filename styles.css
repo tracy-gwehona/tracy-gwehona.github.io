@@ -55,17 +55,6 @@ body {
   margin-bottom: 30px;
 }
 
-.image-placeholder {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 20px;
-  background-image: url('images/tracy.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  border: 5px solid #333;
-}
-
 .about-text {
   max-width: 800px;
   margin: 0 auto;
