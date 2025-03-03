@@ -138,6 +138,13 @@ body {
   }
 }
 
+.card-img-top {
+  height: 180px; /* Adjust if necessary */
+  object-fit: contain; /* Ensures the whole image fits inside the space */
+  width: 100%; /* Keeps the image responsive */
+  background-color: #f8f9fa; /* Optional: Adds a background in case of empty space */
+}
+
 /* Contact Me Section */
 .contact-me-section {
   background-color: #333;
