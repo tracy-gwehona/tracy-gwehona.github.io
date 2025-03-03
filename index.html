@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
@@ -34,19 +38,19 @@
     <section id="home" class="container mt-5">
       <div class="row d-flex align-items-center justify-content-center" style="height: 100vh;">
           <!-- Left: Image Section -->
-          <div class="col-md-5 d-flex justify-content-end">
+          <div class="col-md-5 d-flex justify-content-end" data-aos="fade-right">
               <div class="profile-img">
                   <img src="images/tracy.jpg" alt="Tracy" class="img-fluid rounded-circle" style="max-width: 250px;">
               </div>
           </div>
           
           <!-- Right: Text Section -->
-          <div class="col-md-5 d-flex flex-column align-items-start">
+          <div class="col-md-5 d-flex flex-column align-items-start" data-aos="fade-left">
               <p class="intro-text mb-1">Hello, I'm</p>
               <h1 class="name-text">Tracy</h1>
           </div>
       </div>
-    </section>  
+    </section>
 
     <!-- About Section -->
     <section id="about" class="container mt-5">
