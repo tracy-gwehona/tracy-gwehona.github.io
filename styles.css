@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.about-section h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.image-placeholder {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-image: url('images/about.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 5px solid #333;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Projects Section */
+.projects-section h2 {
+  font-size: 2.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+/* Skills Section */
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+}
+
+/* Responsive layout for cards */
+@media (max-width: 768px) {
+  .card {
+      margin-bottom: 20px;
+  }
+  .card-body .btn {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+  }
+}
+
+/* Contact Me Section */
+.contact-me-section {
+  background-color: #333;
+  color: white;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #ff69b4; /* Pink background */
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
+
+.social-icon-img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .contact-info p {
+      font-size: 1rem;
+  }
+
+  .social-icon {
+      margin: 10px;
+  }
+}
+
+/* Sticky Navbar */
+.navbar {
+  background-color: #333; /* Dark background for navbar */
+  z-index: 1000; /* Ensure navbar is always on top */
+}
+
+.navbar-nav .nav-link {
+  color: white; /* White text for links */
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff69b4; /* Pink color on hover */
+}
+
+/* Smooth Scroll for Sections */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Styling (for visibility when scrolling) */
+section {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+#home {
+  background-color: #f8f9fa;
+}
+
+#about {
+  background-color: #e9ecef;
+}
+
+#projects {
+  background-color: #f8f9fa;
+}
+
+#skills {
+  background-color: #e9ecef;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
