@@ -19,3 +19,6 @@ It demonstrates:
 - Basic web design principles
 - Use of semantic HTML elements for better accessibility
 - A clean and professional layout to present my work
+
+## License  
+This project is licensed under the [Apache 2.0 License](LICENSE).
