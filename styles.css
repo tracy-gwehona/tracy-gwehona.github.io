@@ -9,8 +9,8 @@
 
 /* Profile Image Styling */
 .profile-img {
-  width: 250px; 
-  height: 250px;
+  width: 350px; 
+  height: 350px;
   border-radius: 50%; 
   overflow: hidden; 
   background: #f0f0f0; /* Light background circle */
