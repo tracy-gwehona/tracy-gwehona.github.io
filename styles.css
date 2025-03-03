@@ -145,6 +145,21 @@ body {
   background-color: #f8f9fa; /* Optional: Adds a background in case of empty space */
 }
 
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 1s ease-in-out;
+}
+
 /* Contact Me Section */
 .contact-me-section {
   background-color: #333;
