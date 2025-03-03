@@ -211,6 +211,15 @@ button:hover {
   background-color: #2980b9;
 }
 
+/* Centering the iframe */
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; /* Adjust width */
+  height: 600px; /* Adjust height */
+}
+
 /* Footer Section */
 footer {
   background-color: #34495e;
